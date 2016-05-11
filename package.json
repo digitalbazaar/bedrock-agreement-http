@@ -1,0 +1,41 @@
+{
+  "name": "bedrock-agreement-http",
+  "version": "0.0.1-dev",
+  "description": "Bedrock agreement-http",
+  "main": "./lib",
+  "scripts": {
+    "test": "node ./bedrock/test.js test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-agreement-http"
+  },
+  "keywords": [
+    "bedrock"
+  ],
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "http://digitalbazaar.com"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-agreement-http/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-agreement-http",
+  "dependencies": {
+    "async": "^1.5.2"
+  },
+  "peerDependencies": {
+    "bedrock": "^1.0.0",
+    "bedrock-agreement": "^1.0.0",
+    "bedrock-passport": "^3.0.0",
+    "bedrock-mongodb": "^2.0.0",
+    "bedrock-rest": "^2.0.0"
+  },
+  "devDependencies": {
+    "request": "^2.72.0"
+  },
+  "directories": {
+    "lib": "./lib"
+  }
+}
