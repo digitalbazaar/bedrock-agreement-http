@@ -1,8 +1,8 @@
 /*
  * Copyright (c) 2016 Digital Bazaar, Inc. All rights reserved.
  */
- /* jshint node: true */
- 'use strict';
+/* jshint node: true */
+'use strict';
 
 var async = require('async');
 var brIdentity = require('bedrock-identity');

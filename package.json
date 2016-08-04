@@ -4,7 +4,7 @@
   "description": "Bedrock agreement-http",
   "main": "./lib",
   "scripts": {
-    "test": "node ./bedrock/test.js test"
+    "test": "node test/test.js test"
   },
   "repository": {
     "type": "git",
@@ -33,7 +33,8 @@
     "bedrock-rest": "^2.0.0"
   },
   "devDependencies": {
-    "request": "^2.72.0"
+    "request": "^2.72.0",
+    "uuid": "^2.0.2"
   },
   "directories": {
     "lib": "./lib"
