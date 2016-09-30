@@ -9,7 +9,7 @@ require('bedrock-permission');
 var permissions = config.permission.permissions;
 var roles = config.permission.roles;
 
-config.mocha.tests.push(path.join(__dirname, '..', 'test', 'mocha'));
+config.mocha.tests.push(path.join(__dirname, 'mocha'));
 
 // MongoDB
 config.mongodb.name = 'bedrock_agreement_http_test';
