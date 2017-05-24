@@ -25,6 +25,7 @@
     "async": "^1.5.2",
     "bedrock": "^1.0.0",
     "bedrock-agreement": "^1.0.1",
+    "bedrock-did-client": "^1.0.0",
     "bedrock-docs": "^2.0.2",
     "bedrock-event-log": "^2.1.1",
     "bedrock-express": "^2.0.6",
