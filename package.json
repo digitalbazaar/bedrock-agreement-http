@@ -27,7 +27,7 @@
     "bedrock": "^1.0.0",
     "bedrock-agreement": "^1.0.1",
     "bedrock-passport": "^3.0.0",
-    "bedrock-mongodb": "^3.0.0",
+    "bedrock-mongodb": "3.x - 5.x",
     "bedrock-rest": "^2.0.0"
   },
   "directories": {
